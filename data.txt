@@ -3,6 +3,7 @@ More output from different operating systems:
 platform.machine():
 [OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
 Android 4.1.1            ARM_7A           Python 2.6:            'armv71'
+Android 5.1.1            ARM_             Python 2.7.2:          'armv71'
 Arch,                    x86_64,          Python 3.3.0:          'x86_64'
 Debian 6.0.6,            x86_32,          Python 2.7.3:          'i686'
 Debian 7.0,              x86_64,          Python 2.7.3:          'x86_64'
@@ -27,6 +28,7 @@ Windows XP,              x86_32,          Python 2.7.3:          'x86'
 platform.processor():
 [OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
 Android 4.1.1            ARM_7A           Python 2.6:            ''
+Android 5.1.1            ARM_             Python 2.7.2:          ''
 Arch,                    x86_64,          Python 3.3.0:          ''
 Debian 6.0.6,            x86_32,          Python 2.7.3:          ''
 Debian 7.0,              x86_64,          Python 2.7.3:          ''
@@ -46,3 +48,33 @@ Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
 Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
 Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
 Windows XP,              x86_32,          Python 2.7.3:          'x86 Family 6 Model 30 Stepping 5, GenuineIntel'
+
+
+platform.dist():
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          ('', '', '')
+
+
+platform.uname():
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
+
+
+platform.system():
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          'Linux'
+
+
+sys.platform:
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          'linux4'
+
+
+os.name:
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          'posix'
+
+
+os.uname():
+[OS NAME]                [Python Version]       [Value]
+Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
