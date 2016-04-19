@@ -13,7 +13,7 @@ Fedora 18,               x86_32,          Python 2.7.3,          'i686'
 Fedora 18,               x86_64,          Python 2.7.3,          'x86_64'
 FreeBSD,                 x86_64,          Python 2.7.3,          'amd64'
 Gentoo 2.2,              x86_64,          Python 2.7.3,          'x86_64'
-Haiku,                   x86_32,          Python 2.6.9,          'BePC'
+Haiku,                   x86_32,          Python 2.7.11,         'BePC'
 Mandrake 1,              x86_32,          Python 2.7.1,          'i686'
 Open SUSE 12.1,          x86_32,          Python 2.7.2,          'i686'
 Open Indiana 5.11,       x86_32,          Python 2.6.4,          'i86pc'
@@ -47,7 +47,7 @@ Fedora 18,               x86_32,          Python 2.7.3,          'i686'
 Fedora 18,               x86_64,          Python 2.7.3,          'x86_64'
 FreeBSD,                 x86_64,          Python 2.7.3,          'amd64'
 Gentoo 2.2,              x86_64,          Python 2.7.3,          'Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz'
-Haiku,                   x86_32,          Python 2.6.9,          'x86'
+Haiku,                   x86_32,          Python 2.7.11,         'x86'
 Mandrake 1,              x86_32,          Python 2.7.1,          'i686'
 Open SUSE 12.1,          x86_32,          Python 2.7.2,          'i686'
 Open Indiana 5.11,       x86_32,          Python 2.6.4,          'i386'
@@ -73,7 +73,7 @@ platform.dist():
 Android 5.1.1,           Python 2.7.2,          ('', '', '')
 Arch,                    Python 3.3.2,          ('Arch', '', '')
 Cygwin,                  Python 3.4.3,          ('', '', '')
-Haiku,                   Python 2.6.9,          ('', '', '')
+Haiku,                   Python 2.7.11,         ('', '', '')
 Open Indiana 5.11,       Python 2.6.4,          ('', '', '')
 Open SXCE 5.11,          Python 2.6.4,          ('', '', '')
 OS X 10.11,              Python 2.7.6,          ('', '', '')
@@ -89,7 +89,7 @@ platform.uname():
 Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
 Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
 Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
-Haiku,                   Python 2.6.9,          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
+Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC', 'x86')
 Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
 Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
 OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
@@ -105,7 +105,7 @@ platform.system():
 Android 5.1.1,           Python 2.7.2,          'Linux'
 Arch,                    Python 3.3.2,          'Linux'
 Cygwin,                  Python 3.4.3,          'CYGWIN_NT-10.0'
-Haiku,                   Python 2.6.9,          'Haiku'
+Haiku,                   Python 2.7.11,         'Haiku'
 Open Indiana 5.11,       Python 2.6.4,          'SunOS'
 Open SXCE 5.11,          Python 2.6.4,          'SunOS'
 OS X 10.11,              Python 2.7.6,          'Darwin'
@@ -121,7 +121,7 @@ sys.platform:
 Android 5.1.1,           Python 2.7.2,          'linux4'
 Arch,                    Python 3.3.2,          'linux'
 Cygwin,                  Python 3.4.3,          'cygwin'
-Haiku,                   Python 2.6.9,          'haiku1'
+Haiku,                   Python 2.7.11,         'haiku1'
 Open Indiana 5.11,       Python 2.6.4,          'sunos5'
 Open SXCE 5.11,          Python 2.6.4,          'sunos5'
 OS X 10.11,              Python 2.7.6,          'darwin'
@@ -137,7 +137,7 @@ os.name:
 Android 5.1.1,           Python 2.7.2,          'posix'
 Arch,                    Python 3.3.2,          'posix'
 Cygwin,                  Python 3.4.3,          'posix'
-Haiku,                   Python 2.6.9,          'posix'
+Haiku,                   Python 2.7.11,         'posix'
 Open Indiana 5.11,       Python 2.6.4,          'posix'
 Open SXCE 5.11,          Python 2.6.4,          'posix'
 OS X 10.11,              Python 2.7.6,          'posix'
@@ -153,7 +153,7 @@ os.uname():
 Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
 Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
 Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
-Haiku,                   Python 2.6.9,          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
+Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC', 'x86')
 Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
 Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
 OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
