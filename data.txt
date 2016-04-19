@@ -19,6 +19,7 @@ Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
 Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i86pc'
 OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
 OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
+Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i86pc'
 PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
 Slackware 14,            x86_64,          Python 2.7.3:          'x86_64'
 Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
@@ -49,6 +50,7 @@ Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
 Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i386'
 OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
 OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
+Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i386'
 PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
 Slackware 14,            x86_64,          Python 2.7.3:          'Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz'
 Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
@@ -67,6 +69,7 @@ Arch                     Python 3.3.2:          ('Arch', '', '')
 Cygwin                   Python 3.4.3:          ('', '', '')
 Haiku,                   Python 2.6.9:          ('', '', '')
 Open Indiana 5.11        Python 2.6.4:          ('', '', '')
+Open SXCE 5.11           Python 2.6.4:          ('', '', '')
 Windows 7                Python 3.5.1:          ('', '', '')
 Windows 10               Python 3.5.1:          ('', '', '')
 Windows 10               Python 2.7.11          ('', '', '')
@@ -79,6 +82,7 @@ Arch                     Python 3.3.2:          ('Linux', 'virtuarch', '3.10.9-1
 Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
 Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
 Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
+Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
 Windows 7                Python 3.5.1:          'Windows', 'IE8Win7', '7', '6.1.7601', 'x86', 'x86 Family 6 Model 42 Stepping 7, GenuineIntel')
 Windows 10               Python 3.5.1:          'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
 Windows 10               Python 2.7.11:         'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
@@ -91,6 +95,7 @@ Arch                     Python 3.3.2:          'Linux'
 Cygwin                   Python 3.4.3:          'CYGWIN_NT-10.0'
 Haiku                    Python 2.6.9:          'Haiku'
 Open Indiana 5.11        Python 2.6.4:          'SunOS'
+Open SXCE 5.11           Python 2.6.4:          'SunOS'
 Windows 7                Python 3.5.1:          'Windows'
 Windows 10               Python 3.5.1:          'Windows'
 Windows 10               Python 2.7.11:         'Windows'
@@ -103,6 +108,7 @@ Arch                     Python 3.3.2:          'linux'
 Cygwin                   Python 3.4.3:          'cygwin'
 Haiku                    Python 2.6.9:          'haiku1'
 Open Indiana 5.11        Python 2.6.4:          'sunos5'
+Open SXCE 5.11           Python 2.6.4:          'sunos5'
 Windows 7                Python 3.5.1:          'win32'
 Windows 10               Python 3.5.1:          'win32'
 Windows 10               Python 2.7.11:         'win32'
@@ -115,6 +121,7 @@ Arch                     Python 3.3.2:          'posix'
 Cygwin                   Python 3.4.3:          'posix'
 Haiku                    Python 2.6.9:          'posix'
 Open Indiana 5.11        Python 2.6.4:          'posix'
+Open SXCE 5.11           Python 2.6.4:          'posix'
 Windows 7                Python 3.5.1:          'nt'
 Windows 10               Python 3.5.1:          'nt'
 Windows 10               Python 2.7.11:         'nt'
@@ -127,5 +134,6 @@ Arch                     Python 3.3.2:          ('Linux', 'virtuarch', '3.10.9-1
 Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
 Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
 Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
+Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
 Windows 7                Python 3.5.1:          Removed!
 Windows 10               Python 3.5.1:          Removed!
