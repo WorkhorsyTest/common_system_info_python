@@ -5,6 +5,7 @@ platform.machine():
 Android 4.1.1            ARM_7A           Python 2.6:            'armv71'
 Android 5.1.1            ARM_             Python 2.7.2:          'armv71'
 Arch,                    x86_64,          Python 3.3.0:          'x86_64'
+Cygwin,                  x86_64,          Python 3.4.3:          'x86_64'
 Debian 6.0.6,            x86_32,          Python 2.7.3:          'i686'
 Debian 7.0,              x86_64,          Python 2.7.3:          'x86_64'
 Fedora 17,               x86_32,          Python 2.7.3:          'i686'
@@ -30,6 +31,7 @@ platform.processor():
 Android 4.1.1            ARM_7A           Python 2.6:            ''
 Android 5.1.1            ARM_             Python 2.7.2:          ''
 Arch,                    x86_64,          Python 3.3.0:          ''
+Cygwin,                  x86_64,          Python 3.4.3:          ''
 Debian 6.0.6,            x86_32,          Python 2.7.3:          ''
 Debian 7.0,              x86_64,          Python 2.7.3:          ''
 Fedora 17,               x86_32,          Python 2.7.3:          'i686'
@@ -53,28 +55,34 @@ Windows XP,              x86_32,          Python 2.7.3:          'x86 Family 6 M
 platform.dist():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('', '', '')
+Cygwin                   Python 3.4.3:          ('', '', '')
 
 
 platform.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
+Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
 
 
 platform.system():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'Linux'
+Cygwin                   Python 3.4.3:          'CYGWIN_NT-10.0'
 
 
 sys.platform:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'linux4'
+Cygwin                   Python 3.4.3:          'cygwin'
 
 
 os.name:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'posix'
+Cygwin                   Python 3.4.3:          'posix'
 
 
 os.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
+Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
