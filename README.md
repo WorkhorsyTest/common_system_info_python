@@ -2,18 +2,21 @@
 
 Getting common info from different Operating Systems using Python:
 
+FIXME: Add a way to get release info and host name:
+socket.gethostname()
+
 Use:
 ~~~python
-platform.machine() # CPU info
-platform.uname() # OS version
-platform.system() # OS type
+platform.machine() # CPU
+platform.system() # OS
+platform.uname() # Distribution
 ~~~
 
 Don't Use:
 ~~~python
-platform.processor() # CPU info
-platform.dist() # OS info
-sys.platform # OS type
-os.name # OS type
-os.uname() # OS version
+platform.processor() # CPU
+platform.dist() # OS
+sys.platform # OS
+os.name # Distribution
+os.uname() # Distribution
 ~~~
