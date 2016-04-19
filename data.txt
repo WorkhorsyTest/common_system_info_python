@@ -1,163 +1,163 @@
-More output from different operating systems:
+Various commands and their output on different Operating Systems:
 
 platform.machine():
 [OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
-Android 4.1.1            ARM_7A           Python 2.6:            'armv71'
-Android 5.1.1            ARM_             Python 2.7.2:          'armv71'
-Arch,                    x86_64,          Python 3.3.0:          'x86_64'
-Cygwin,                  x86_64,          Python 3.4.3:          'x86_64'
-Debian 6.0.6,            x86_32,          Python 2.7.3:          'i686'
-Debian 7.0,              x86_64,          Python 2.7.3:          'x86_64'
-Fedora 17,               x86_32,          Python 2.7.3:          'i686'
-Fedora 18,               x86_32,          Python 2.7.3:          'i686'
-Fedora 18,               x86_64,          Python 2.7.3:          'x86_64'
-FreeBSD,                 x86_64,          Python 2.7.3:          'amd64'
-Gentoo 2.2,              x86_64,          Python 2.7.3:          'x86_64'
-Haiku,                   x86_32,          Python 2.6.9:          'BePC'
-Mandrake 1               x86_32,          Python 2.7.1:          'i686'
-Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
-Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i86pc'
-OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
-OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
-Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i86pc'
-OS X 10.11,              x86_64,          Python 2.7.6:          'x86_64'
-PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
-PC BSD 10,               x86_64,          Python 2.7.11:         'amd64'
-Slackware 14,            x86_64,          Python 2.7.3:          'x86_64'
-Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
-Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
-Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
-Ubuntu 15.10,            x86_64,          Python 2.7.10:         'x86_64'
-Windows XP,              x86_32,          Python 2.7.3:          'x86'
-Windows 7,               x86_32,          Python 3.5.1:          'x86'
-Windows 10,              x86_64,          Python 3.5.1:          'AMD64'
-Windows 10,              x86_64,          Python 2.7.11:         'AMD64'
+Android 4.1.1,           ARM_7A           Python 2.6,            'armv71'
+Android 5.1.1,           ARM_             Python 2.7.2,          'armv71'
+Arch,                    x86_64,          Python 3.3.0,          'x86_64'
+Cygwin,                  x86_64,          Python 3.4.3,          'x86_64'
+Debian 6.0.6,            x86_32,          Python 2.7.3,          'i686'
+Debian 7.0,              x86_64,          Python 2.7.3,          'x86_64'
+Fedora 17,               x86_32,          Python 2.7.3,          'i686'
+Fedora 18,               x86_32,          Python 2.7.3,          'i686'
+Fedora 18,               x86_64,          Python 2.7.3,          'x86_64'
+FreeBSD,                 x86_64,          Python 2.7.3,          'amd64'
+Gentoo 2.2,              x86_64,          Python 2.7.3,          'x86_64'
+Haiku,                   x86_32,          Python 2.6.9,          'BePC'
+Mandrake 1,              x86_32,          Python 2.7.1,          'i686'
+Open SUSE 12.1,          x86_32,          Python 2.7.2,          'i686'
+Open Indiana 5.11,       x86_32,          Python 2.6.4,          'i86pc'
+OpenBSD,                 x86_64,          Python 2.7.3,          'amd64'
+OpenBSD 5.2,             x86_32,          Python 2.7.3,          'i386'
+Open SXCE 5.11,          x86_32,          Python 2.6.4,          'i86pc'
+OS X 10.11,              x86_64,          Python 2.7.6,          'x86_64'
+PC BSD 9,                x86_32,          Python 2.7.2,          'i386'
+PC BSD 10,               x86_64,          Python 2.7.11,         'amd64'
+Slackware 14,            x86_64,          Python 2.7.3,          'x86_64'
+Ubuntu 12.04,            x86_32,          Python 2.7.3,          'i686'
+Ubuntu 12.04,            x86_64,          Python 2.7.3,          'x86_64'
+Ubuntu 12.10,            x86_32,          Python 2.7.3,          'i686'
+Ubuntu 15.10,            x86_64,          Python 2.7.10,         'x86_64'
+Windows XP,              x86_32,          Python 2.7.3,          'x86'
+Windows 7,               x86_32,          Python 3.5.1,          'x86'
+Windows 10,              x86_64,          Python 3.5.1,          'AMD64'
+Windows 10,              x86_64,          Python 2.7.11,         'AMD64'
 
 
 platform.processor():
 [OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
-Android 4.1.1            ARM_7A           Python 2.6:            ''
-Android 5.1.1            ARM_             Python 2.7.2:          ''
-Arch,                    x86_64,          Python 3.3.0:          ''
-Cygwin,                  x86_64,          Python 3.4.3:          ''
-Debian 6.0.6,            x86_32,          Python 2.7.3:          ''
-Debian 7.0,              x86_64,          Python 2.7.3:          ''
-Fedora 17,               x86_32,          Python 2.7.3:          'i686'
-Fedora 18,               x86_32,          Python 2.7.3:          'i686'
-Fedora 18,               x86_64,          Python 2.7.3:          'x86_64'
-FreeBSD,                 x86_64,          Python 2.7.3:          'amd64'
-Gentoo 2.2               x86_64,          Python 2.7.3:          'Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz'
-Haiku,                   x86_32,          Python 2.6.9:          'x86'
-Mandrake 1               x86_32,          Python 2.7.1:          'i686'
-Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
-Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i386'
-OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
-OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
-Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i386'
-OS X 10.11,              x86_64,          Python 2.7.6:          'i386'
-PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
-PC BSD 10,               x86_64,          Python 2.7.11:         'amd64'
-Slackware 14,            x86_64,          Python 2.7.3:          'Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz'
-Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
-Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
-Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
-Ubuntu 15.10,            x86_64,          Python 2.7.10:         'x86_64'
-Windows XP,              x86_32,          Python 2.7.3:          'x86 Family 6 Model 30 Stepping 5, GenuineIntel'
-Windows 7,               x86_32,          Python 3.5.1:          'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
-Windows 10,              x86_64,          Python 3.5.1:          'AMD64'
-Windows 10,              x86_64,          Python 2.7.11:         'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
+Android 4.1.1,           ARM_7A           Python 2.6,            ''
+Android 5.1.1,           ARM_             Python 2.7.2,          ''
+Arch,                    x86_64,          Python 3.3.0,          ''
+Cygwin,                  x86_64,          Python 3.4.3,          ''
+Debian 6.0.6,            x86_32,          Python 2.7.3,          ''
+Debian 7.0,              x86_64,          Python 2.7.3,          ''
+Fedora 17,               x86_32,          Python 2.7.3,          'i686'
+Fedora 18,               x86_32,          Python 2.7.3,          'i686'
+Fedora 18,               x86_64,          Python 2.7.3,          'x86_64'
+FreeBSD,                 x86_64,          Python 2.7.3,          'amd64'
+Gentoo 2.2,              x86_64,          Python 2.7.3,          'Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz'
+Haiku,                   x86_32,          Python 2.6.9,          'x86'
+Mandrake 1,              x86_32,          Python 2.7.1,          'i686'
+Open SUSE 12.1,          x86_32,          Python 2.7.2,          'i686'
+Open Indiana 5.11,       x86_32,          Python 2.6.4,          'i386'
+OpenBSD,                 x86_64,          Python 2.7.3,          'amd64'
+OpenBSD 5.2,             x86_32,          Python 2.7.3,          'i386'
+Open SXCE 5.11,          x86_32,          Python 2.6.4,          'i386'
+OS X 10.11,              x86_64,          Python 2.7.6,          'i386'
+PC BSD 9,                x86_32,          Python 2.7.2,          'i386'
+PC BSD 10,               x86_64,          Python 2.7.11,         'amd64'
+Slackware 14,            x86_64,          Python 2.7.3,          'Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz'
+Ubuntu 12.04,            x86_32,          Python 2.7.3,          'i686'
+Ubuntu 12.04,            x86_64,          Python 2.7.3,          'x86_64'
+Ubuntu 12.10,            x86_32,          Python 2.7.3,          'i686'
+Ubuntu 15.10,            x86_64,          Python 2.7.10,         'x86_64'
+Windows XP,              x86_32,          Python 2.7.3,          'x86 Family 6 Model 30 Stepping 5, GenuineIntel'
+Windows 7,               x86_32,          Python 3.5.1,          'x86 Family 6 Model 42 Stepping 7, GenuineIntel'
+Windows 10,              x86_64,          Python 3.5.1,          'AMD64'
+Windows 10,              x86_64,          Python 2.7.11,         'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
 
 
 platform.dist():
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          ('', '', '')
-Arch                     Python 3.3.2:          ('Arch', '', '')
-Cygwin                   Python 3.4.3:          ('', '', '')
-Haiku,                   Python 2.6.9:          ('', '', '')
-Open Indiana 5.11        Python 2.6.4:          ('', '', '')
-Open SXCE 5.11           Python 2.6.4:          ('', '', '')
-OS X 10.11               Python 2.7.6:          ('', '', '')
-PC BSD 10,               Python 2.7.11:         ('', '', '')
-Ubuntu 15.10,            Python 2.7.10:         ('Ubuntu', '15.10', 'wily')
-Windows 7                Python 3.5.1:          ('', '', '')
-Windows 10               Python 3.5.1:          ('', '', '')
-Windows 10               Python 2.7.11          ('', '', '')
+Android 5.1.1,           Python 2.7.2,          ('', '', '')
+Arch,                    Python 3.3.2,          ('Arch', '', '')
+Cygwin,                  Python 3.4.3,          ('', '', '')
+Haiku,                   Python 2.6.9,          ('', '', '')
+Open Indiana 5.11,       Python 2.6.4,          ('', '', '')
+Open SXCE 5.11,          Python 2.6.4,          ('', '', '')
+OS X 10.11,              Python 2.7.6,          ('', '', '')
+PC BSD 10,               Python 2.7.11,         ('', '', '')
+Ubuntu 15.10,            Python 2.7.10,         ('Ubuntu', '15.10', 'wily')
+Windows 7,               Python 3.5.1,          ('', '', '')
+Windows 10,              Python 3.5.1,          ('', '', '')
+Windows 10,              Python 2.7.11,         ('', '', '')
 
 
 platform.uname():
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
-Arch                     Python 3.3.2:          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
-Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
-Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
-Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
-Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
-OS X 10.11               Python 2.7.6:          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
-PC BSD 10,               Python 2.7.11:         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
-Ubuntu 15.10,            Python 2.7.10:         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64', 'x86_64')
-Windows 7                Python 3.5.1:          'Windows', 'IE8Win7', '7', '6.1.7601', 'x86', 'x86 Family 6 Model 42 Stepping 7, GenuineIntel')
-Windows 10               Python 3.5.1:          'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
-Windows 10               Python 2.7.11:         'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
+Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
+Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
+Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
+Haiku,                   Python 2.6.9,          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
+Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
+Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
+OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
+PC BSD 10,               Python 2.7.11,         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
+Ubuntu 15.10,            Python 2.7.10,         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64', 'x86_64')
+Windows 7,               Python 3.5.1,          ('Windows', 'IE8Win7', '7', '6.1.7601', 'x86', 'x86 Family 6 Model 42 Stepping 7, GenuineIntel')
+Windows 10,              Python 3.5.1,          ('Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
+Windows 10,              Python 2.7.11,         ('Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
 
 
 platform.system():
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          'Linux'
-Arch                     Python 3.3.2:          'Linux'
-Cygwin                   Python 3.4.3:          'CYGWIN_NT-10.0'
-Haiku                    Python 2.6.9:          'Haiku'
-Open Indiana 5.11        Python 2.6.4:          'SunOS'
-Open SXCE 5.11           Python 2.6.4:          'SunOS'
-OS X 10.11               Python 2.7.6:          'Darwin'
-PC BSD 10,               Python 2.7.11:         'FreeBSD'
-Ubuntu 15.10,            Python 2.7.10:         'Linux'
-Windows 7                Python 3.5.1:          'Windows'
-Windows 10               Python 3.5.1:          'Windows'
-Windows 10               Python 2.7.11:         'Windows'
+Android 5.1.1,           Python 2.7.2,          'Linux'
+Arch,                    Python 3.3.2,          'Linux'
+Cygwin,                  Python 3.4.3,          'CYGWIN_NT-10.0'
+Haiku,                   Python 2.6.9,          'Haiku'
+Open Indiana 5.11,       Python 2.6.4,          'SunOS'
+Open SXCE 5.11,          Python 2.6.4,          'SunOS'
+OS X 10.11,              Python 2.7.6,          'Darwin'
+PC BSD 10,               Python 2.7.11,         'FreeBSD'
+Ubuntu 15.10,            Python 2.7.10,         'Linux'
+Windows 7,               Python 3.5.1,          'Windows'
+Windows 10,              Python 3.5.1,          'Windows'
+Windows 10,              Python 2.7.11,         'Windows'
 
 
 sys.platform:
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          'linux4'
-Arch                     Python 3.3.2:          'linux'
-Cygwin                   Python 3.4.3:          'cygwin'
-Haiku                    Python 2.6.9:          'haiku1'
-Open Indiana 5.11        Python 2.6.4:          'sunos5'
-Open SXCE 5.11           Python 2.6.4:          'sunos5'
-OS X 10.11               Python 2.7.6:          'darwin'
-PC BSD 10,               Python 2.7.11:         'freebsd10'
-Ubuntu 15.10,            Python 2.7.10:         'linux2'
-Windows 7                Python 3.5.1:          'win32'
-Windows 10               Python 3.5.1:          'win32'
-Windows 10               Python 2.7.11:         'win32'
+Android 5.1.1,           Python 2.7.2,          'linux4'
+Arch,                    Python 3.3.2,          'linux'
+Cygwin,                  Python 3.4.3,          'cygwin'
+Haiku,                   Python 2.6.9,          'haiku1'
+Open Indiana 5.11,       Python 2.6.4,          'sunos5'
+Open SXCE 5.11,          Python 2.6.4,          'sunos5'
+OS X 10.11,              Python 2.7.6,          'darwin'
+PC BSD 10,               Python 2.7.11,         'freebsd10'
+Ubuntu 15.10,            Python 2.7.10,         'linux2'
+Windows 7,               Python 3.5.1,          'win32'
+Windows 10,              Python 3.5.1,          'win32'
+Windows 10,              Python 2.7.11,         'win32'
 
 
 os.name:
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          'posix'
-Arch                     Python 3.3.2:          'posix'
-Cygwin                   Python 3.4.3:          'posix'
-Haiku                    Python 2.6.9:          'posix'
-Open Indiana 5.11        Python 2.6.4:          'posix'
-Open SXCE 5.11           Python 2.6.4:          'posix'
-OS X 10.11               Python 2.7.6:          'posix'
-PC BSD 10,               Python 2.7.11:         'posix'
-Ubuntu 15.10,            Python 2.7.10:         'posix'
-Windows 7                Python 3.5.1:          'nt'
-Windows 10               Python 3.5.1:          'nt'
-Windows 10               Python 2.7.11:         'nt'
+Android 5.1.1,           Python 2.7.2,          'posix'
+Arch,                    Python 3.3.2,          'posix'
+Cygwin,                  Python 3.4.3,          'posix'
+Haiku,                   Python 2.6.9,          'posix'
+Open Indiana 5.11,       Python 2.6.4,          'posix'
+Open SXCE 5.11,          Python 2.6.4,          'posix'
+OS X 10.11,              Python 2.7.6,          'posix'
+PC BSD 10,               Python 2.7.11,         'posix'
+Ubuntu 15.10,            Python 2.7.10,         'posix'
+Windows 7,               Python 3.5.1,          'nt'
+Windows 10,              Python 3.5.1,          'nt'
+Windows 10,              Python 2.7.11,         'nt'
 
 
 os.uname():
 [OS NAME]                [Python Version]       [Value]
-Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
-Arch                     Python 3.3.2:          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
-Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
-Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
-Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
-Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
-OS X 10.11               Python 2.7.6:          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
-PC BSD 10,               Python 2.7.11:         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
-Ubuntu 15.10,            Python 2.7.10:         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64')
-Windows 7                Python 3.5.1:          Removed!
-Windows 10               Python 3.5.1:          Removed!
+Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
+Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
+Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
+Haiku,                   Python 2.6.9,          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
+Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
+Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
+OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
+PC BSD 10,               Python 2.7.11,         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
+Ubuntu 15.10,            Python 2.7.10,         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64')
+Windows 7,               Python 3.5.1,          Removed!
+Windows 10,              Python 3.5.1,          Removed!
