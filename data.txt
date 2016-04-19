@@ -20,6 +20,7 @@ Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i86pc'
 OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
 OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
 Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i86pc'
+OS X 10.11,              x86_64,          Python 2.7.6:          'x86_64'
 PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
 PC BSD 10,               x86_64,          Python 2.7.11:         'amd64'
 Slackware 14,            x86_64,          Python 2.7.3:          'x86_64'
@@ -52,6 +53,7 @@ Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i386'
 OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
 OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
 Open SXCE 5.11,          x86_32,          Python 2.6.4:          'i386'
+OS X 10.11,              x86_64,          Python 2.7.6:          'i386'
 PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
 PC BSD 10,               x86_64,          Python 2.7.11:         'amd64'
 Slackware 14,            x86_64,          Python 2.7.3:          'Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz'
@@ -72,6 +74,7 @@ Cygwin                   Python 3.4.3:          ('', '', '')
 Haiku,                   Python 2.6.9:          ('', '', '')
 Open Indiana 5.11        Python 2.6.4:          ('', '', '')
 Open SXCE 5.11           Python 2.6.4:          ('', '', '')
+OS X 10.11               Python 2.7.6:          ('', '', '')
 PC BSD 10,               Python 2.7.11:         ('', '', '')
 Windows 7                Python 3.5.1:          ('', '', '')
 Windows 10               Python 3.5.1:          ('', '', '')
@@ -86,6 +89,7 @@ Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2
 Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
 Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
 Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
+OS X 10.11               Python 2.7.6:          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
 PC BSD 10,               Python 2.7.11:         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
 Windows 7                Python 3.5.1:          'Windows', 'IE8Win7', '7', '6.1.7601', 'x86', 'x86 Family 6 Model 42 Stepping 7, GenuineIntel')
 Windows 10               Python 3.5.1:          'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
@@ -100,6 +104,7 @@ Cygwin                   Python 3.4.3:          'CYGWIN_NT-10.0'
 Haiku                    Python 2.6.9:          'Haiku'
 Open Indiana 5.11        Python 2.6.4:          'SunOS'
 Open SXCE 5.11           Python 2.6.4:          'SunOS'
+OS X 10.11               Python 2.7.6:          'Darwin'
 PC BSD 10,               Python 2.7.11:         'FreeBSD'
 Windows 7                Python 3.5.1:          'Windows'
 Windows 10               Python 3.5.1:          'Windows'
@@ -114,6 +119,7 @@ Cygwin                   Python 3.4.3:          'cygwin'
 Haiku                    Python 2.6.9:          'haiku1'
 Open Indiana 5.11        Python 2.6.4:          'sunos5'
 Open SXCE 5.11           Python 2.6.4:          'sunos5'
+OS X 10.11               Python 2.7.6:          'darwin'
 PC BSD 10,               Python 2.7.11:         'freebsd10'
 Windows 7                Python 3.5.1:          'win32'
 Windows 10               Python 3.5.1:          'win32'
@@ -128,6 +134,7 @@ Cygwin                   Python 3.4.3:          'posix'
 Haiku                    Python 2.6.9:          'posix'
 Open Indiana 5.11        Python 2.6.4:          'posix'
 Open SXCE 5.11           Python 2.6.4:          'posix'
+OS X 10.11               Python 2.7.6:          'posix'
 PC BSD 10,               Python 2.7.11:         'posix'
 Windows 7                Python 3.5.1:          'nt'
 Windows 10               Python 3.5.1:          'nt'
@@ -142,6 +149,7 @@ Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2
 Haiku                    Python 2.6.9:          ('Haiku', 'shredder', '1', 'hrev47804 Sep  4 2014 02:01:50', 'BePC', 'x86')
 Open Indiana 5.11        Python 2.6.4:          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
 Open SXCE 5.11           Python 2.6.4:          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
+OS X 10.11               Python 2.7.6:          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
 PC BSD 10,               Python 2.7.11:         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
 Windows 7                Python 3.5.1:          Removed!
 Windows 10               Python 3.5.1:          Removed!
