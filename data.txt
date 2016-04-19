@@ -24,6 +24,8 @@ Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
 Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
 Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
 Windows XP,              x86_32,          Python 2.7.3:          'x86'
+Windows 10,              x86_64,          Python 3.5.1:          'AMD64'
+Windows 10,              x86_64,          Python 2.7.11:         'AMD64'
 
 
 platform.processor():
@@ -50,39 +52,52 @@ Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
 Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
 Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
 Windows XP,              x86_32,          Python 2.7.3:          'x86 Family 6 Model 30 Stepping 5, GenuineIntel'
+Windows 10,              x86_64,          Python 3.5.1:          'AMD64'
+Windows 10,              x86_64,          Python 2.7.11:         'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel'
 
 
 platform.dist():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('', '', '')
 Cygwin                   Python 3.4.3:          ('', '', '')
+Windows 10               Python 3.5.1:          ('', '', '')
+Windows 10               Python 2.7.11          ('', '', '')
 
 
 platform.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
 Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
+Windows 10               Python 3.5.1:          'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
+Windows 10               Python 2.7.11:         'Windows', 'IE11WIN10', '10', '10.0.10240', 'AMD64', 'Intel64 Family 6 Model 42 Stepping 7, GenuineIntel')
 
 
 platform.system():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'Linux'
 Cygwin                   Python 3.4.3:          'CYGWIN_NT-10.0'
+Windows 10               Python 3.5.1:          'Windows'
+Windows 10               Python 2.7.11:         'Windows'
 
 
 sys.platform:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'linux4'
 Cygwin                   Python 3.4.3:          'cygwin'
+Windows 10               Python 3.5.1:          'win32'
+Windows 10               Python 2.7.11:         'win32'
 
 
 os.name:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          'posix'
 Cygwin                   Python 3.4.3:          'posix'
+Windows 10               Python 3.5.1:          'nt'
+Windows 10               Python 2.7.11:         'nt'
 
 
 os.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1            Python 2.7.2:          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
 Cygwin                   Python 3.4.3:          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
+Windows 10               Python 3.5.1:          Removed!
