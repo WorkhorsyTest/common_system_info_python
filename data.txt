@@ -1,0 +1,48 @@
+More output from different operating systems:
+
+platform.machine():
+[OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
+Android 4.1.1            ARM_7A           Python 2.6:            'armv71'
+Arch,                    x86_64,          Python 3.3.0:          'x86_64'
+Debian 6.0.6,            x86_32,          Python 2.7.3:          'i686'
+Debian 7.0,              x86_64,          Python 2.7.3:          'x86_64'
+Fedora 17,               x86_32,          Python 2.7.3:          'i686'
+Fedora 18,               x86_32,          Python 2.7.3:          'i686'
+Fedora 18,               x86_64,          Python 2.7.3:          'x86_64'
+FreeBSD,                 x86_64,          Python 2.7.3:          'amd64'
+Gentoo 2.2,              x86_64,          Python 2.7.3:          'x86_64'
+Mandrake 1               x86_32,          Python 2.7.1:          'i686'
+Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
+Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i86pc'
+OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
+OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
+PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
+Slackware 14,            x86_64,          Python 2.7.3:          'x86_64'
+Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
+Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
+Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
+Windows XP,              x86_32,          Python 2.7.3:          'x86'
+
+
+platform.processor():
+[OS NAME]                [Real CPU]       [Python Version]       [Reported CPU]
+Android 4.1.1            ARM_7A           Python 2.6:            ''
+Arch,                    x86_64,          Python 3.3.0:          ''
+Debian 6.0.6,            x86_32,          Python 2.7.3:          ''
+Debian 7.0,              x86_64,          Python 2.7.3:          ''
+Fedora 17,               x86_32,          Python 2.7.3:          'i686'
+Fedora 18,               x86_32,          Python 2.7.3:          'i686'
+Fedora 18,               x86_64,          Python 2.7.3:          'x86_64'
+FreeBSD,                 x86_64,          Python 2.7.3:          'amd64'
+Gentoo 2.2               x86_64,          Python 2.7.3:          'Intel(R) Core(TM) i7-3960X CPU @ 3.30GHz'
+Mandrake 1               x86_32,          Python 2.7.1:          'i686'
+Open SUSE 12.1,          x86_32,          Python 2.7.2:          'i686'
+Open Indiana 5.11,       x86_32,          Python 2.6.4:          'i386'
+OpenBSD,                 x86_64,          Python 2.7.3:          'amd64'
+OpenBSD 5.2,             x86_32,          Python 2.7.3:          'i386'
+PC BSD 9,                x86_32,          Python 2.7.2:          'i386'
+Slackware 14,            x86_64,          Python 2.7.3:          'Intel(R) Core(TM)2 CPU T7200 @ 2.00GHz'
+Ubuntu 12.04,            x86_32,          Python 2.7.3:          'i686'
+Ubuntu 12.04,            x86_64,          Python 2.7.3:          'x86_64'
+Ubuntu 12.10,            x86_32,          Python 2.7.3:          'i686'
+Windows XP,              x86_32,          Python 2.7.3:          'x86 Family 6 Model 30 Stepping 5, GenuineIntel'
