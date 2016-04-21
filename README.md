@@ -18,6 +18,8 @@ Don't Use:
 ~~~python
 platform.processor() # CPU
 platform.dist() # OS
+platform.mac_ver()
+platform.linux_distribution()
 sys.platform # OS
 os.name # Distribution
 os.uname() # Distribution

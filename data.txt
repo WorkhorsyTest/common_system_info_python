@@ -5,6 +5,7 @@ platform.machine():
 Android 4.1.1,           ARM_7A           Python 2.6,            'armv71'
 Android 5.1.1,           ARM_             Python 2.7.2,          'armv71'
 Arch,                    x86_64,          Python 3.3.0,          'x86_64'
+Centos 7,                x86_64,          Python 3.10.0,         'x86_64'
 Cygwin,                  x86_64,          Python 3.4.3,          'x86_64'
 Debian 6.0.6,            x86_32,          Python 2.7.3,          'i686'
 Debian 7.0,              x86_64,          Python 2.7.3,          'x86_64'
@@ -39,6 +40,7 @@ platform.processor():
 Android 4.1.1,           ARM_7A           Python 2.6,            ''
 Android 5.1.1,           ARM_             Python 2.7.2,          ''
 Arch,                    x86_64,          Python 3.3.0,          ''
+Centos 7,                x86_64,          Python 3.10.0,         'x86_64'
 Cygwin,                  x86_64,          Python 3.4.3,          ''
 Debian 6.0.6,            x86_32,          Python 2.7.3,          ''
 Debian 7.0,              x86_64,          Python 2.7.3,          ''
@@ -72,6 +74,7 @@ platform.dist():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          ('', '', '')
 Arch,                    Python 3.3.2,          ('Arch', '', '')
+Centos 7,                Python 3.10.0,         ('centos', '7.2.1511', 'Core')
 Cygwin,                  Python 3.4.3,          ('', '', '')
 Haiku,                   Python 2.7.11,         ('', '', '')
 Open Indiana 5.11,       Python 2.6.4,          ('', '', '')
@@ -84,20 +87,59 @@ Windows 10,              Python 3.5.1,          ('', '', '')
 Windows 10,              Python 2.7.11,         ('', '', '')
 
 
+platform.linux_distribution():
+[OS NAME]                [Python Version]       [Value]
+Arch,                    Python 3.3.2,          ('Arch', '', '')
+Centos 7,                Python 3.10.0,         ('centos', '7.2.1511', 'Core')
+Haiku,                   Python 2.7.11,         ('', '', '')
+Open Indiana 5.11,       Python 2.6.4,          ('', '', '')
+OS X 10.11,              Python 2.7.6,          ('', '', '')
+PC BSD 10,               Python 2.7.11,         ('', '', '')
+Windows 7,               Python 3.5.1,          ('', '', '')
+
+
+platform.mac_ver():
+[OS NAME]                [Python Version]       [Value]
+Arch,                    Python 3.3.2,          ('', ('', '', ''), '')
+Centos 7,                Python 3.10.0,         ('', ('', '', ''), '')
+Haiku,                   Python 2.7.11,         ('', ('', '', ''), '')
+Open Indiana 5.11,       Python 2.6.4,          ('', ('', '', ''), '')
+OS X 10.11,              Python 2.7.6,          ('10.10.1', (', '', ''), 'x86_64')
+PC BSD 10,               Python 2.7.11,         ('', ('', '', ''), '')
+Windows 7,               Python 3.5.1,          ('', ('', '', ''), '')
+
+
 platform.version():
+Arch,                    Python 3.3.2,          '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013'
+Centos 7,                Python 3.10.0,         '#1 SMP Thu Nov 19 2:10:57 UTC 2015'
+Cygwin,                  Python 3.4.3,          '2016-04-11 09:58'
 Haiku,                   Python 2.7.11,         'hrev50213 Sep 10 2016 19:15:17'
+Open Indiana 5.11,       Python 2.6.4,          'oi_151a9'
+Open SXCE 5.11,          Python 2.6.4,          'OpenSXCE2014.05__Illumos20140505'
+OS X 10.11,              Python 2.7.6,          'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014'
+PC BSD 10,               Python 2.7.11,         'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC'
 Ubuntu 15.10,            Python 2.7.10,         '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016'
+Windows 7,               Python 3.5.1,          '6.1.7601'
 
 
 platform.release():
+Arch,                    Python 3.3.2,          '3.10.9-1-ARCH'
+Centos 7,                Python 3.10.0,         '3.10.0-327.e17.x86_64'
+Cygwin,                  Python 3.4.3,          '2.5.0(0.297/5/3)'
 Haiku,                   Python 2.7.11,         '1'
+Open Indiana 5.11,       Python 2.6.4,          '5.11'
+Open SXCE 5.11,          Python 2.6.4,          '5.11'
+OS X 10.11,              Python 2.7.6,          '14.0.0'
+PC BSD 10,               Python 2.7.11,         '10.2-RELEASE-p10'
 Ubuntu 15.10,            Python 2.7.10,         '4.2.0-35-generic'
+Windows 7,               Python 3.5.1,          '7'
 
 
 platform.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
 Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
+Centos 7,                Python 3.10.0,         ('Linux', 'localhost.localdomain', '3.10.0-327.e17.x86_64', '#1 SMP Thu Nov 19 2:10:57 UTC 2015', 'x86_64', 'x86_64')
 Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64', '')
 Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC', 'x86')
 Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
@@ -114,6 +156,7 @@ platform.system():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          'Linux'
 Arch,                    Python 3.3.2,          'Linux'
+Centos 7,                Python 3.10.0,         'Linux'
 Cygwin,                  Python 3.4.3,          'CYGWIN_NT-10.0'
 Haiku,                   Python 2.7.11,         'Haiku'
 Open Indiana 5.11,       Python 2.6.4,          'SunOS'
@@ -130,6 +173,7 @@ sys.platform:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          'linux4'
 Arch,                    Python 3.3.2,          'linux'
+Centos 7,                Python 3.10.0,         'linux2'
 Cygwin,                  Python 3.4.3,          'cygwin'
 Haiku,                   Python 2.7.11,         'haiku1'
 Open Indiana 5.11,       Python 2.6.4,          'sunos5'
@@ -146,6 +190,7 @@ os.name:
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          'posix'
 Arch,                    Python 3.3.2,          'posix'
+Centos 7,                Python 3.10.0,         'posix'
 Cygwin,                  Python 3.4.3,          'posix'
 Haiku,                   Python 2.7.11,         'posix'
 Open Indiana 5.11,       Python 2.6.4,          'posix'
@@ -161,13 +206,14 @@ Windows 10,              Python 2.7.11,         'nt'
 os.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
-Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686', '')
+Arch,                    Python 3.3.2,          ('Linux', 'virtuarch', '3.10.9-1-ARCH', '#1 SMP PREEMPT Wed Aug 21 14:37:01 CEST 2013', 'i686')
+Centos 7,                Python 3.10.0,         ('Linux', 'localhost.localdomain', '3.10.0-327.e17.x86_64', '#1 SMP Thu Nov 19 2:10:57 UTC 2015', 'x86_64')
 Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2.5.0(0.297/5/3)', '2016-04-11 09:58', 'x86_64')
-Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC', 'x86')
-Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc', 'i386')
-Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc', 'i386')
+Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC')
+Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc')
+Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc')
 OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
-PC BSD 10,               Python 2.7.11,         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64', 'amd64')
+PC BSD 10,               Python 2.7.11,         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64')
 Ubuntu 15.10,            Python 2.7.10,         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64')
 Windows 7,               Python 3.5.1,          Removed!
 Windows 10,              Python 3.5.1,          Removed!
