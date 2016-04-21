@@ -1,9 +1,11 @@
 # common_system_info_python
 
-Getting common info from different Operating Systems using Python:
+Getting common info from different Operating Systems using Python 2 & 3:
 
-FIXME: Add a way to get release info and host name:
-socket.gethostname()
+FIXME: Add a way to get:
+* release info
+* host name: socket.gethostname()
+* cpu bits
 
 Use:
 ~~~python
