@@ -20,7 +20,7 @@ platform.processor() # CPU: Wildly inconsistent results. Processor brand, name o
 platform.mac_ver()
 sys.platform # OS: Legacy cruft. Sometimes mixes OS release info in with the OS name E.G. win32, linux, linux4
 os.name # Distribution: Not useful. Only provides 'posix', 'nt', 'ce', 'java'
-os.uname() # Distribution: Truncates host name to 8 characters sometimes
+os.uname() # Distribution: Missing on Windows. Truncates host name to 8 characters sometimes
 ~~~
 
 Deprecated:
