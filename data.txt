@@ -87,17 +87,6 @@ Windows 10,              Python 3.5.1,          ('', '', '')
 Windows 10,              Python 2.7.11,         ('', '', '')
 
 
-platform.linux_distribution():
-[OS NAME]                [Python Version]       [Value]
-Arch,                    Python 3.3.2,          ('Arch', '', '')
-Centos 7,                Python 3.10.0,         ('centos', '7.2.1511', 'Core')
-Haiku,                   Python 2.7.11,         ('', '', '')
-Open Indiana 5.11,       Python 2.6.4,          ('', '', '')
-OS X 10.11,              Python 2.7.6,          ('', '', '')
-PC BSD 10,               Python 2.7.11,         ('', '', '')
-Windows 7,               Python 3.5.1,          ('', '', '')
-
-
 platform.mac_ver():
 [OS NAME]                [Python Version]       [Value]
 Arch,                    Python 3.3.2,          ('', ('', '', ''), '')
@@ -212,7 +201,7 @@ Cygwin,                  Python 3.4.3,          ('CYGWIN_NT-10.0', 'gindows', '2
 Haiku,                   Python 2.7.11,         ('Haiku', 'shredder', '1', 'hrev50213 Sep 10 2016 19:15:17', 'BePC')
 Open Indiana 5.11,       Python 2.6.4,          ('SunOS', 'openindiana', '5.11', 'oi_151a9', 'i86pc')
 Open SXCE 5.11,          Python 2.6.4,          ('SunOS', 'opensxce', '5.11', 'OpenSXCE2014.05__Illumos20140505', 'i86pc')
-OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64', 'i386')
+OS X 10.11,              Python 2.7.6,          ('Darwin', 'users-Mac-Pro.local', '14.0.0', 'Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64', 'x86_64')
 PC BSD 10,               Python 2.7.11,         ('FreeBSD', 'pcbsd-1685', '10.2-RELEASE-p10', 'FreeBSD 10.2-RELEASE-p10 #0: Thu Dec 10 15:29:43 UTC 2015     root@amd64-builder.pcbsd.org:/usr/obj/usr/src/sys/GENERIC', 'amd64')
 Ubuntu 15.10,            Python 2.7.10,         ('Linux', 'ubuntu', '4.2.0-35-generic', '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016', 'x86_64')
 Windows 7,               Python 3.5.1,          Removed!
