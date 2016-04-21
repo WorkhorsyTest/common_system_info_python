@@ -84,6 +84,16 @@ Windows 10,              Python 3.5.1,          ('', '', '')
 Windows 10,              Python 2.7.11,         ('', '', '')
 
 
+platform.version():
+Haiku,                   Python 2.7.11,         'hrev50213 Sep 10 2016 19:15:17'
+Ubuntu 15.10,            Python 2.7.10,         '#40-Ubuntu SMP Tue Mar 15 22:15:45 UTC 2016'
+
+
+platform.release():
+Haiku,                   Python 2.7.11,         '1'
+Ubuntu 15.10,            Python 2.7.10,         '4.2.0-35-generic'
+
+
 platform.uname():
 [OS NAME]                [Python Version]       [Value]
 Android 5.1.1,           Python 2.7.2,          ('Linux', 'localhost', 3.10.49-6302417, '#1 SMP PREEMPT Wed Nov 18 11:32:12 KST 2015', 'armv71')
