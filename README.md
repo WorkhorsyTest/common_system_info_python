@@ -16,11 +16,15 @@ platform.uname() # Distribution
 
 Don't Use:
 ~~~python
-platform.processor() # CPU
-platform.dist() # OS
+platform.processor() # CPU: Wildly inconsistent results. Processor brand, name or usually nothing.
 platform.mac_ver()
-platform.linux_distribution()
-sys.platform # OS
-os.name # Distribution
-os.uname() # Distribution
+sys.platform # OS: Legacy cruft. Sometimes mixes OS release info in with the OS name E.G. win32, linux, linux4
+os.name # Distribution: Not useful. Only provides 'posix', 'nt', 'ce', 'java'
+os.uname() # Distribution: Truncates host name to 8 characters sometimes
+~~~
+
+Deprecated:
+~~~python
+platform.dist() # OS: Deprecated since version 3.5, will be removed in version 3.7
+platform.linux_distribution() # Same as platform.dist()
 ~~~
